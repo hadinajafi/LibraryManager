@@ -7,7 +7,10 @@ package librarymanager;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Tab;
+import javafx.scene.layout.AnchorPane;
 
 /**
  * FXML Controller class
@@ -16,6 +19,17 @@ import javafx.fxml.Initializable;
  */
 public class MainLayoutController implements Initializable {
 
+    @FXML
+    private AnchorPane generalAnchorPane;
+    @FXML
+    private AnchorPane categoriesPane;
+
+    @FXML
+    private AnchorPane tagViewPane;
+
+    @FXML
+    private AnchorPane folderViewPane;
+    
     /**
      * Initializes the controller class.
      * @param url
@@ -23,7 +37,10 @@ public class MainLayoutController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        generalAnchorPane.getStyleClass().add("pane");
+        categoriesPane.getStyleClass().add("pane");
+        tagViewPane.getStyleClass().add("pane");
+        folderViewPane.getStyleClass().add("pane");
     }    
     
 }
