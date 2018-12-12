@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.net.URL?>
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane id="AnchorPane" prefHeight="452.0" prefWidth="716.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="librarymanager.MainLayoutController">
@@ -27,9 +30,19 @@
                 <AnchorPane fx:id="tagViewPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
               </content>
             </Tab>
-            <Tab text="Folder View">
+            <Tab text="Type View">
               <content>
-                <AnchorPane fx:id="folderViewPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                <AnchorPane fx:id="folderViewPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="typeViewTable" layoutX="231.0" prefHeight="419.0" prefWidth="485.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columns>
+                            <TableColumn fx:id="typeViewTableNameColumn" prefWidth="151.0" text="Name" />
+                            <TableColumn fx:id="typeViewTableDateModColumn" prefWidth="150.0" text="Date Modified" />
+                              <TableColumn fx:id="typeViewTableSizeColumn" prefWidth="125.0" text="Size" />
+                          </columns>
+                        </TableView>
+                        <ListView fx:id="typeViewListView" prefHeight="422.0" prefWidth="232.0" AnchorPane.bottomAnchor="-4.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children></AnchorPane>
               </content>
             </Tab>
         </tabs>
