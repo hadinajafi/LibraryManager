@@ -3,5 +3,32 @@
  */
 
 .mainFxmlClass {
+    -fx-background-color: radial-gradient(center 78% 5%, radius 60%, #99bbff, #ccddff);
+    -fx-background-repeat: repeat, no-repeat;
+}
+.tab-pane *.tab-header-area *.tab-header-background {
+  -fx-background-color:transparent;
+}
 
+.tab-pane {
+  -fx-tab-min-width:100px;
+  -fx-tab-max-width:100px;
+  -fx-tab-min-height:25px;
+  -fx-tab-max-height:25px;
+}
+
+.tab {
+  -fx-font-family: Arial;
+  -fx-font-size: 14;
+  -fx-background-color:#ffffff ;
+  
+}
+
+.tab:selected {
+    -fx-background-color:#E7E7E7 ;
+    -fx-focus-color:transparent;
+}
+
+.pane{
+    -fx-background-color: #E7E7E7;
 }
