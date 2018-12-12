@@ -9,7 +9,9 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Tab;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
 import javafx.scene.layout.AnchorPane;
 
 /**
@@ -23,12 +25,20 @@ public class MainLayoutController implements Initializable {
     private AnchorPane generalAnchorPane;
     @FXML
     private AnchorPane categoriesPane;
-
     @FXML
     private AnchorPane tagViewPane;
-
     @FXML
     private AnchorPane folderViewPane;
+    @FXML
+    private TableView<?> typeViewTable;
+    @FXML
+    private ListView<?> typeViewListView;
+    @FXML
+    private TableColumn<?, ?> typeViewTableNameColumn;
+    @FXML
+    private TableColumn<?, ?> typeViewTableDateModColumn;
+    @FXML
+    private TableColumn<?, ?> typeViewTableSizeColumn;
     
     /**
      * Initializes the controller class.
