@@ -9,7 +9,7 @@ Ok, as I know, there is no tool in system filemanagers to tag a file or categori
 1. we have multiple Word docs, we have also PDFs, and also some PowerPoint files. so we make a category for our educational files, another for programming stuff, another for work. this is Category concept here.
 2. we have above files, now we can add #java tag to the java docs, for example files for how to code or programming solutions. and also these files maybe are in two or more categories; we don't care. the important part is we can easily find any file tagged with #java. we can see what is about java between our huge file container.
 
-This Project's aim is not only a library manager for only docs. you will be able to manage our photos, videos. tag them and find them only with simple clicks, not going thru a lot of folders to find a beautiful wallpaper or find a last year pictures with friends.
+This Project's aim is not only a library manager for only docs. you will be able to manage your photos, videos. tag them and find them only with simple clicks, not going thru a lot of folders to find a beautiful wallpaper or find a last year pictures with friends.
 No need to search and expend a lot of time.
 
 -What's awesome?
