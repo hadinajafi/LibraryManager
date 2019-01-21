@@ -1,0 +1,16 @@
+-What is this exactly for?
+An important question in begining of every project.
+This project aims to solve our problem with managing documents, files, texts for now. (I'll make it for other file types later).
+
+-How is managing concept for this project?
+Ok, as I know, there is no tool in system filemanagers to tag a file or categorize it. so I decided to make a tool that plays that role. Tagging and Categorizing is the concept. Tags can easily managed, and are more findable. Categories is another concept for making the files easily sorted.
+
+-example:
+1. we have multiple Word docs, we have also PDFs, and also some PowerPoint files. so we make a category for our educational files, another for programming stuff, another for work. this is Category concept here.
+2. we have above files, now we can add #java tag to the java docs, for example files for how to code or programming solutions. and also these files maybe are in two or more categories; we don't care. the important part is we can easily find any file tagged with #java. we can see what is about java between our huge file container.
+
+This Project's aim is not only a library manager for only docs. you will be able to manage our photos, videos. tag them and find them only with simple clicks, not going thru a lot of folders to find a beautiful wallpaper or find our last year pictures with friends.
+No need to search and expend a lot of time.
+
+-What's awesome?
+I'll make it automized, I mean it is pain in butt to tag and categorize every file in your PC or Disk. so what's the solution? I think for now the only solution is processing the files we have, for example if a file contains Java in its name or content, so it can have a #Java tag. but it needs processing and it's not my proirity for now, but maybe I work on it later.
